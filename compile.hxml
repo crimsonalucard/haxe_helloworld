@@ -1,0 +1,18 @@
+-cp src/
+-lib heaps
+-dce full
+-debug
+-main Main
+
+
+--each
+-js web/hello.js
+
+
+--next
+-lib hlsdl
+-hl hashlink/hello.hl
+
+--next
+-lib hlsdl
+-hl c/hello.c
